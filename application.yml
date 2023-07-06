@@ -11,8 +11,12 @@ microservice:
   payment-service:
     endpoints:
       endpoint:
-        uri: http://PAYMENT-SERVICE/payment 
+        uri: http://PAYMENT-SERVICE/payment-service
   customer-service:
     endpoints:
       endpoint:
-        uri: http://CUSTOMER-SERVICE/customer
+        uri: http://CUSTOMER-SERVICE/customer-service
+  business-service:
+    endpoints:
+      endpoint:
+        uri: http://BUSINESS-SERVICE/business-service
