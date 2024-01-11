@@ -19,4 +19,8 @@ microservice:
   business-service:
     endpoints:
       endpoint:
-        uri: http://BUSINESS-SERVICE/business-service
+        uri: http://business-service-clusterip-service/business-service
+  security-service:
+    endpoints:
+      endpoint:
+        uri: http://security-service-clusterip-service/business-service
